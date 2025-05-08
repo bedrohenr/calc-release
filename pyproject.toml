@@ -3,14 +3,14 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nome-do-seu-pacote"
+name = "pedro-calculadora"
 version = "0.1.0"
-description = "Uma descrição curta do seu pacote"
+description = "Uma calculadora básica em python utilizada como introdução a publicação de libs no PyPi"
 readme = "README.md"
 requires-python = ">=3.7"
 license = {text = "MIT"}
 authors = [
-    {name = "Seu Nome", email = "seu@email.com"}
+    {name = "Pedro Ferreira", email = "pedro@email.com"}
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -23,8 +23,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/usuario/repositorio"
-Documentation = "https://github.com/usuario/repositorio/wiki"
-Repository = "https://github.com/usuario/repositorio"
-Issues = "https://github.com/usuario/repositorio/issues"
+Homepage = "https://github.com/bedrohenr/calc-release"
+Documentation = "https://github.com/bedrohenr/calc-release"
+Repository = "https://github.com/bedrohenr/calc-release"
+Issues = "https://github.com/bedrohenr/calc-release/issues"
 
