@@ -3,7 +3,8 @@ def adicionar(x, y):
     return x + y
 
 def subtrair(x, y):
-    return "To be implemented."
+    """Subtrai dois números."""
+    return x - y
 
 def multiplicar(x, y):
     return "To be implemented."
