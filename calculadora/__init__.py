@@ -11,7 +11,11 @@ def multiplicar(x, y):
     return x * y
 
 def dividir(x, y):
-    return "To be implemented."
+    """Divide dois números. Retorna erro se o divisor for zero."""
+    if y == 0:
+        return "Erro! Divisão por zero."
+    return x / y
+
 
 while True:
     print("\nSelecione a operação:")
