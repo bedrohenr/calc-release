@@ -7,7 +7,8 @@ def subtrair(x, y):
     return x - y
 
 def multiplicar(x, y):
-    return "To be implemented."
+    """Multiplica dois números."""
+    return x * y
 
 def dividir(x, y):
     return "To be implemented."
